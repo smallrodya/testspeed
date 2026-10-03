@@ -13,6 +13,7 @@
 ## Что нужно
 
 - Python 3.8+ (подойдёт 3.9 / 3.10 / 3.11 / 3.12 / 3.13)
+- Git
 - Интернет
 - URL с `http://` или `https://`
 
@@ -29,10 +30,11 @@ python3 --version
 
 Если команды нет, поставьте Python с [python.org](https://www.python.org/downloads/) или через Homebrew: `brew install python`.
 
-3. Перейдите в папку репозитория и запустите:
+3. Склонируйте репозиторий и запустите скрипт:
 
 ```bash
-cd путь/к/speedtest
+git clone https://github.com/smallrodya/testspeed.git
+cd testspeed
 python3 speedtest.py https://upload.wikimedia.org/wikipedia/commons/3/3f/Fronalpstock_big.jpg
 ```
 
@@ -49,16 +51,19 @@ python --version
 
 Если не сработало, попробуйте `py --version`.
 
-4. Перейдите в папку репозитория и запустите:
+4. Склонируйте репозиторий и запустите скрипт:
 
 ```bat
-cd путь\к\speedtest
+git clone https://github.com/smallrodya/testspeed.git
+cd testspeed
 python speedtest.py https://upload.wikimedia.org/wikipedia/commons/3/3f/Fronalpstock_big.jpg
 ```
 
 или:
 
 ```bat
+git clone https://github.com/smallrodya/testspeed.git
+cd testspeed
 py speedtest.py https://upload.wikimedia.org/wikipedia/commons/3/3f/Fronalpstock_big.jpg
 ```
 
